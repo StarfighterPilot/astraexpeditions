@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.home-central{
+   width: 100%;
+   height: 100vh;
+   background-image: url(Images/earth-from-space.jpeg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   position: relative;
+}
+
+.navbar{
+    height: 70px;
+    width: 100%;
+    background: rgba(0,0,0,0.2);
+}
+
+.navbar ul{
+    float: right;
+    margin-right: 45px;
+    padding: 10px 20px;
+    margin-top: 15px;
+    list-style: none;
+}
+
+.navbar ul li{
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.navbar ul li a:hover{
+    background: navy;
+}
+
+.logo{
+    width: 120px;
+    margin: 12px 45px;
+    cursor: pointer;
+}
+
+.home-text-1 h1{
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.home-text-2 h1{
+    color: white;
+    font-size: 40px;
+    font-weight: 250;
+    letter-spacing: 20px;
+    width: 775px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*.home-text-3{
+    color: white;
+    font-size: 20px;
+    display: flex;
+    list-style: none;
+    padding: 0;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.home-text-list{
+    padding: 0.5rem 2.75rem;
+}*/
+
+.home-text-4 h1{
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 10px;
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.company-text h1{
+    color: white;
+    font-size: 16px;
+    font-weight: 150;
+    letter-spacing: 10px;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.book{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/book.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.book-text{
+    color: white;
+}
+
+.about{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/about.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.content {
+    position: relative;
+    width: 1150px;
+    display: flex;
+/*    justify-content: center;*/
+    align-items: center;
+}
+
+.about-text-1{
+    z-index: 111;
+    background: rgba(255, 255, 266, 0.01);
+    backdrop-filter: blur(20px);
+    padding: 40px;
+    max-width: 500px;
+    border: 1px solid rgba(255, 255, 266, 0.1);
+    border-radius: 10px;
+    transform: translate(-60px, 50px);
+}
+
+.about-text-2{
+    z-index: 222;
+    background: rgba(255, 255, 266, 0.1);
+    backdrop-filter: blur(20px);
+    padding: 40px;
+    max-width: 400px;
+    border: 1px solid rgba(255, 255, 266, 0.1);
+    border-radius: 10px;
+    transform: translate(-80px, 100px);
+}
+
+.about-text-1 h1{
+    color: white;
+    font-size: 25px;
+    font-weight: 200;
+}
+
+.about-text-2 h1{
+    color: white;
+    font-size: 25px;
+    font-weight: 200;
+}
+
+.about-text-1, .about-text-2 p{
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.prepare{
+    width: 100%;
+    height: 100vh;
+    background-image: url(Images/prepare.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/*.prep-content {
+    position: relative;
+    width: 1150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}*/
+
+.prepare-text-1{
+    background: rgba(255, 255, 266, 0.01);
+    backdrop-filter: blur(20px);
+    padding: 40px;
+    max-width: 1000px;
+    border: 1px solid rgba(255, 255, 266, 0.1);
+    border-radius: 10px;
+    transform: translate(10px, 50px);
+}
+
+.prepare-text-1 h1{
+    color: white;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.prepare-earth{
+    background: rgba(255, 255, 266, 0.01);
+    backdrop-filter: blur(20px);
+    padding: 40px;
+    max-width: 500px;
+    border: 1px solid rgba(255, 255, 266, 0.1);
+    border-radius: 10px;
+    transform: translate(0px, 50px);
+}
+
+.prepare-lunar{
+    background: rgba(255, 255, 266, 0.01);
+    backdrop-filter: blur(20px);
+    padding: 40px;
+    max-width: 500px;
+    border: 1px solid rgba(255, 255, 266, 0.1);
+    border-radius: 10px;
+    transform: translate(0px, 50px);
+}
+
+.prepare-earth p1{
+    color: white;
+}
+
+.prepare-lunar p1{
+    color: white;
+}
+
+
+.tech{
+    width: 100%;
+    height: 100vh;
+    background-image: url(Images/earth-sunrise.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.tech-text {
+    color: white;
+}
+
+/*.trip{
+    position: relative;
+    width: 1150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.trip-type .earth-box, .moon-box{
+    z-index: 222;
+    background: rgba(255, 255, 266, 0.1);
+    backdrop-filter: blur;
+    padding: 40px;
+    max-width: 400px;
+    border: 1px solid rgba(255, 255, 266, 0.1);
+    border-radius: 10px;
+    transform: translate(-80px, 50px);
+}
+
+.trip-type .earth-box, .moon-box h3{
+    color:white;
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+.trip-type .earth-box, .moon-box p{
+    color:white;
+    margin-bottom: 10px;
+}*/
+
+.hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1s;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+.home-box {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-box .box {
+    color:white;
+    background: rgba(255, 255, 266, 0.1);
+    backdrop-filter: blur;
+    position: relative;
+    top: 60%;
+    margin: 20px;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+/*.home-box .box {
+    z-index: 222;
+    background: rgba(255, 255, 266, 0.1);
+    backdrop-filter: blur;
+    padding: 40px;
+    max-width: 100px;
+    position: absolute;
+    top: 55%;
+    border: 1px solid rgba(255, 255, 266, 0.1);
+    border-radius: 10px;
+    transform: translate(-80px, 50px);
+}*/
+
+.box:nth-child(2) {
+    transition-delay: 200ms;  
+}
+.box:nth-child(3) {
+    transition-delay: 400ms;
+}
+.box:nth-child(4) {
+    transition-delay: 600ms;
+}
